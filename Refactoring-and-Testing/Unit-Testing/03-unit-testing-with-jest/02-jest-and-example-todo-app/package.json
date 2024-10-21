@@ -1,0 +1,20 @@
+{
+  "name": "example-todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "e2e": "cypress open",
+    "e2e:ci": "cypress run",
+    "test:unit": "jest --ci",
+    "devserver": "serve ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0",
+    "cypress": "^13.15.0",
+    "jest": "^29.0.0"
+  }
+}
